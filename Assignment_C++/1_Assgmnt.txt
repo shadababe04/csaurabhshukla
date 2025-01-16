@@ -1,0 +1,5 @@
+1.WAP to check wheather the given number is odd or even
+2.WPA to calculate factorial of a number
+3.WAP to swap values of two int number
+4.WAP to calculate LCM of number(TSRS)
+5.WAP to check a number is prime or not
