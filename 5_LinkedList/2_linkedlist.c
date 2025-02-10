@@ -40,5 +40,11 @@ int main()
     THIRD->next = NULL;
 
     printNode(HEAD);
+
+       // Free allocated memory
+       free(HEAD);
+       free(SECND);
+       free(THIRD);
+   
     return 0;
 }
