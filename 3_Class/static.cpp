@@ -4,8 +4,9 @@ using namespace std;
 class item
 {
     public:
-    int a, b;  //Instance Member Variable(IMV)
-    static int k; //Static Member Variable(SMV) class variable-share resource
+        int a, b;  //Instance Member Variable(IMV)
+        static int k; //Static Member Variable(SMV) class variable-share resource
+
 
 };
 int item::k;
