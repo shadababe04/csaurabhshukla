@@ -11,7 +11,7 @@ node_t *Head = NULL; // declared as a global variable
 
 int main() 
 {
-    Head = (node_t *)malloc(sizeof(node_t)); // ✅ Now inside a function
+    Head = (node_t *)malloc(sizeof(node_t)); //
     if (Head == NULL) {
         printf("Memory allocation failed\n");
         return -1; // Handle memory allocation failure
